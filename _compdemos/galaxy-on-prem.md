@@ -17,7 +17,7 @@ including choosing and loading all software necessary for their analysis.
 The steps to run Galaxy include:
 - create your Galaxy instance
 - load your data and software
-- 
+- develop and implement your workflow
 
 ## Creating your first Galaxy instance
 
@@ -52,7 +52,7 @@ Enter number to select your Galaxy install
 New Install: Enter a name for the Galaxy instance: test_galaxy
 ```
 
-FIXME: need to leave window open? does `galaxy` wrap sbatch?
+FIXME: link to `sbatch`, discuss when window needs to stay open
 
 A few minutes after the installation has been started you should receive an email like this:
 
@@ -74,12 +74,56 @@ Enter number to select your Galaxy install
 2) New-Install
 #? 1
 ```
+Select the options in the following menu that match
+your intended use for the Galaxy instance.
 
 ## Loading data into Galaxy
 
+### From your own computer 
+
+- "Get Data" in lefthand sidebar
+- "Upload File from your computer" subheading
+- "Choose local file" to navigate to location on your computer
+- When all files desired are shown in the box,
+click "Start" to begin the upload.
+
+You'll see the upload box show a status update,
+but this represents the status of the query being accepted. 
+After closing that window,
+you'll see your files represented in boxes on the righthand sidebar of your Galaxy interface.
+When the box representing the data file changes from orange to green,
+your data has completed uploading.
+
 ### Data from Fred Hutch storage
 
+Under development
+
+### From a URL
+
+Follow the instructions above to load data [from your own computer](#from-your-own-computer),
+but instead of "Choose local file,"
+Select "Paste/Fetch data."
+Paste in the URL where the data is located,
+and proceed to Start the download job.
+
 ### Reference data
+
+Under development
+
+## Installing software
+
+- click on "Admin" in the top toolbar
+- select "Tool Management" in the lefthand sidebar
+- select "Install and Uninstall" in the menu below 
+- search for the title of your software in the window that appears
+- click on the software title in the search results
+- click Install for the most recent version
+- keep your tools organized by selecting an existing section,
+or creating a new section under which your tool will appear
+
+Click "Analyze data" in the top toolbar to move back to your original Galaxy view.
+Watch the lefthand sidebar for the appearance of your software
+(it may take a few minutes to install!).
 
 ## Suggestions for making the most of Galaxy
 
@@ -87,9 +131,15 @@ Please check the [Galaxy Documentation](https://docs.galaxyproject.org/) for mor
 
 ### Reproducible workflows
 
+Under development
+
 ### Sharing your Galaxy instance with Hutch collaborators
 
+Under development
+
 ### Transferring analyses outside Galaxy
+
+Under development
 
 ## Troubleshooting
 
