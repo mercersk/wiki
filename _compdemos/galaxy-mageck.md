@@ -42,14 +42,16 @@ download the file to your local computer,
 unzip, and upload from there.
 
 Convert file format of experimental data: for both ERR files
--	Click on edit (pencil) icon
--	Convert tab
--	Select option in dropdown menu: “convert compressed to uncompressed”
+(FIXME: check if this is necessary)
+- Click on edit (pencil) icon
+- Convert tab
+- Select option in dropdown menu: “convert compressed to uncompressed”
 
 Run MAGeCK count
--	Click on tool in lefthand sidebar
--	Appropriate data will be autodetected: highlight appropriate data in “Sample reads” section (fastq files)
--	Scroll down and select “execute”
--	Download results
--	Click the title of the box in righthand sidebar for the MAGeCK output.
--	Click the Save icon in the summary below to save results to your computer
+- Click on tool in lefthand sidebar
+- Appropriate data will be autodetected: highlight appropriate data in “Sample reads” section (fastq files)
+- Scroll down and select “execute”
+- Download results
+- Click the title of the box in righthand sidebar for the MAGeCK output.
+- Click the Save icon in the summary below to save results to your computer
+- FIXME: normalization (in Options menu)

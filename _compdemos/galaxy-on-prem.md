@@ -77,7 +77,9 @@ Enter number to select your Galaxy install
 Select the options in the following menu that match
 your intended use for the Galaxy instance.
 
-## Loading data into Galaxy
+## Accessing data
+
+FIXME: note about data being copied to /fh/fast/
 
 ### From your own computer 
 
@@ -94,10 +96,6 @@ you'll see your files represented in boxes on the righthand sidebar of your Gala
 When the box representing the data file changes from orange to green,
 your data has completed uploading.
 
-### Data from Fred Hutch storage
-
-Under development
-
 ### From a URL
 
 Follow the instructions above to load data [from your own computer](#from-your-own-computer),
@@ -106,9 +104,9 @@ Select "Paste/Fetch data."
 Paste in the URL where the data is located,
 and proceed to Start the download job.
 
-### Reference data
+### Manipulating data in Galaxy
 
-Under development
+Under development: previewing, converting, and annotating data
 
 ## Installing software
 
@@ -133,11 +131,11 @@ Please check the [Galaxy Documentation](https://docs.galaxyproject.org/) for mor
 
 Under development
 
-### Sharing your Galaxy instance with Hutch collaborators
+### Sharing your Galaxy work with Hutch collaborators
 
 Under development
 
-### Transferring analyses outside Galaxy
+### Moving analyses to the command line
 
 Under development
 
