@@ -152,20 +152,38 @@ Try again after a while. Then you should see the Galaxy login screen.
 
 ### Wrong session token
 
-When using Chrome, you might see this error message:
-
+When using Chrome to access your Galaxy instance,
+you might see the following error message:
 "Wrong session Token found." 
 
 ![Error with Chrome]({{ site.baseurl }}/compdemos/assets/2020-06-17-01-03-11.png)
 
-To fix the issue please reset all fhcrc.org Cookies from your Chrome browser or use a new incognito window or use a different browser such as Firefox.
+There are a few different ways you can resolve this issue.
 
-To remove Cookies from Chrome, go to:  
+1. Use a new [incognito window](https://support.google.com/chrome/answer/95464) in Chrome.
+
+2. Reset all fhcrc.org cookies from your Chrome browser:  
 - Settings -> Privacy and Security 
 - Cookies and other site data
 - See all cookies and site data 
 - in the upper right search for fhcrc.org
 - click "Remove all shown" and restart Chrome
+
+3. Use a different browser, like Firefox.
+
+### Tool not found
+
+After creating your instance and installing a software tool,
+you may receive an error naming the tool and indicating "command not found."
+For example,
+after attempting to use mageck_count,
+the error might read
+`tool_script.sh: line 89: mageck: command not found`.
+
+This generally occurs because of a problem associated with the software tool's installation.
+Try to uninstall and the reinstall the software in your Galaxy instance.
+If that doesn't work,
+Try creating a new Galaxy instance and installing the tool there.
 
 ## Why this method of supporting Galaxy?
 
